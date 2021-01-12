@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:id="@+id/tv_titre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="BAS_OnClick"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_clic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clic !" />
+
+        <TextView
+            android:id="@+id/tv_clicCourt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre de clic court :" />
+
+        <TextView
+            android:id="@+id/tv_clicLong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre de clic long : " />
+
+    </LinearLayout>
